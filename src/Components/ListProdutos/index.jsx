@@ -10,7 +10,7 @@ function ProdutoLista({ onEdit }) { // Corrigido: props devem estar entre chaves
 
   useEffect(() => {
     loadProdutos();
-  }, [RefreshLista]); // <- Agora ele recarrega a cada mudança
+  }, []); // <- Agora ele recarrega a cada mudança
 
 
   const loadProdutos = () => {
