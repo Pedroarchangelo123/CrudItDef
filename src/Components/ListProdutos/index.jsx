@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Table, Button } from "react-bootstrap";
 import { getProdutos, deleteProdutos } from "../../Service/ProdutoService";
-import RefreshLista from "../../App"; // Corrigido: importando o RefreshLista corretamente
-import "./listaprodutos.css"; // Corrigido: importando o CSS corretamente
+
+import "./listaprodutos.css"; 
 
 function ProdutoLista({ onEdit }) { // Corrigido: props devem estar entre chaves {}
 //   const [produtos, setProdutos] = useState(localStorage.getItem('produtos') ? localStorage.getItem('produtos') : []); // Corrigido: inicializando com o valor correto
