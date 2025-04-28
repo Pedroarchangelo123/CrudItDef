@@ -1,0 +1,36 @@
+Form {
+    justify-items: center;
+    border: 2px solid #dfdfdf;
+}
+
+
+Button{
+    background-color: #10B981;
+    margin: 10px;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.form-columns{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.form-columns .form-group {
+    flex: 1; /* todos os campos ocupam o mesmo espaço */
+    min-width: 200px; /* largura mínima para melhor responsividade */
+}
+
+.Caixa{
+width: 250px;
+height: 50px;
+border: 1px solid;
+font-size: 15px;
+padding-left: 10px;
+margin-top: 30px;
+margin: 15px;
+
+}

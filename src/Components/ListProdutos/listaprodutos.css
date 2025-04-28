@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+    div {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    table {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      margin-bottom: 5px;
+    }
+  }
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .table-wrapper {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  table {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+h2 {
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .Excluir{
+  margin-left: 0px;
+  }
+
+  .Lado{
+    margin-right: 50px;
+  }
+
+  td{
+   
+    width: 10px;
+    text-align: center
+  }
+
+  
