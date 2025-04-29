@@ -1,70 +1,99 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🛠️ Projeto CRUD com React
 
-## Available Scripts
+Este é um projeto simples de CRUD (Create, Read, Update, Delete) desenvolvido com **React** e **React-Bootstrap**, com armazenamento local via **localStorage**. O objetivo é permitir o cadastro, edição, exclusão e listagem de produtos de forma prática.
 
-In the project directory, you can run:
+## 🚀 Deploy
 
-### `npm start`
+🔗 Acesse o projeto online: [https://cruditproducts.netlify.app](https://cruditproducts.netlify.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Estrutura de Pastas
 
-### `npm test`
+```plaintext
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── ProdutoForm.jsx
+│   │   └── ProdutoLista.jsx
+│   ├── Service/
+│   │   └── ProdutoService.js
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+├── package.json
+└── README.md
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ✅ Adicionar produtos com nome, categoria e preço
+- ✅ Listar produtos cadastrados em uma tabela
+- ✅ Editar produtos existentes
+- ✅ Excluir produtos com confirmação
+- ✅ Armazenamento persistente com **localStorage**
+- ✅ Interface responsiva com **React-Bootstrap**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧪 Tecnologias Utilizadas
 
-### `npm run eject`
+- [React](https://reactjs.org/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [UUID](https://www.npmjs.com/package/uuid) para geração de IDs únicos
+- [LocalStorage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🖼️ Responsividade
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+O layout utiliza classes responsivas e media queries para garantir usabilidade em dispositivos móveis.  
+A tabela centralizada e os botões são adaptados para telas menores.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📝 Como rodar localmente
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/seurepo.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse a pasta
+cd seurepo
 
-### Code Splitting
+# Instale as dependências
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Rode o projeto
+npm start
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 👥 Integrantes
 
-### Making a Progressive Web App
+- Pedro Archangelo  
+- Yago  
+- Ana Beatriz
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🤝 Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Este projeto foi desenvolvido como exercício em grupo. Sinta-se à vontade para clonar, modificar e usar como base para seus estudos!
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📌 Observações
 
-### `npm run build` fails to minify
+- Todos os dados são armazenados no navegador via `localStorage`.
+- Ao atualizar a página, os dados permanecem salvos.
+- Não há integração com banco de dados externo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+Feito com ❤️ por Pedro, Yago e Ana Beatriz
